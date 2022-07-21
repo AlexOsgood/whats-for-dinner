@@ -8,3 +8,43 @@ red - #ee5253
 
 */
 
+html {
+ height: 100%;
+ width: 100%;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  border-style: dashed;
+  background-image: url("./assets/burger-friends.jpg");
+  background-size: cover;
+}
+
+.main-section {
+  border-style: dashed;
+  border-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.section-class {
+  height: 250px;
+  width: 250px;
+  border-style: dashed;
+  border-color: purple;
+}
+
+#addRecipeButton {
+  height: 25px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #0fb9b1;
+  height: 60px;
+  width: 100%;
+}
