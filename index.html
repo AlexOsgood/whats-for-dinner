@@ -5,12 +5,27 @@
   </head>
   <body>
     <nav class="nav-bar">
+      <h1 class="main-header">What's for dinner?</h1>
       <button class="button" id="addRecipeButton">add a recipe</button>
     </nav>
+    <div class="box-container">
     <section class="main-section">
-      <div class="section-class" id="miniSection1"></div>
-      <div class="section-class" id="miniSection2"></div>
+      <h2>What are you looking for?</h2>
+      <input type="radio" id="Side" name="Side" value="Side">
+      <label for="Side">Side</label><br>
+      <input type="radio" id="Main Dish" name="Main Dish" value="Main Dish">
+      <label for="Main Dish">Main Dish</label><br>
+      <input type="radio" id="Dessert" name="Dessert" value="Dessert">
+      <label for="Dessert">Dessert</label><br>
+      <input type="radio" id="Entire Meal" name="Entire Meal" value="Entire Meal">
+      <label for="Entire Meal">Entire Meal</label><br>
+      <button>Let's Cook!</button>
     </section>
+    <section class="cookingpot">
+    <img src="./assets/cookpot.svg"></img>
+    </section>
+
+  </div>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
